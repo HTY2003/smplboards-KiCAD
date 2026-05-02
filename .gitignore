@@ -1,0 +1,6 @@
+*.zip
+*.csv
+*.gbr
+*.lck
+jlcpcb/
+gerber/
