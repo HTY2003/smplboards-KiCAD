@@ -1,13 +1,14 @@
 (footprint "Sensor_Colour_TCS3530"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "U1"
 		(at 0 -2.2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "a7e1c057-bab7-4a1b-88fc-06c51c2fe00e")
+		(hide yes)
+		(uuid "b86b47a6-f8dc-4551-a7ec-633d165b55b4")
 		(effects
 			(font
 				(size 1 1)
@@ -15,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "Sensor_Colour_TCS3530"
+	(property "Value" "TCS3530"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f64b6505-2a88-437d-8358-09f4f1028fc0")
+		(uuid "a526f2da-f58b-4e98-882f-e6f56a1eccbf")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ed7c0ea9-a2ab-4b8e-a5d8-5ea5da096cc3")
+		(uuid "a2c6dd4a-8930-4f19-a3cb-678fcd11af6b")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "254552d0-7ff7-4443-aa59-b1674445b736")
+		(uuid "19ee7d2e-f904-48a3-833d-e943ad48b870")
 		(effects
 			(font
 				(size 1 1)
@@ -53,7 +54,10 @@
 			)
 		)
 	)
+	(sheetname "/")
+	(sheetfile "smplboards TCS3530.kicad_sch")
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1 -1.35)
 		(end 1 1.35)
@@ -63,7 +67,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "2f507721-4467-4096-b16e-dae8f3584c1d")
+		(uuid "fc102e11-f440-4c5e-9e75-92df4577674d")
 	)
 	(fp_circle
 		(center -1.2 -1.55)
@@ -74,7 +78,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "670ed6b1-5f89-47e2-b4de-cb449f2cfc47")
+		(uuid "3ce4157f-dc8e-42ca-b916-9223cc64652e")
 	)
 	(fp_rect
 		(start -1.2 -1.55)
@@ -85,13 +89,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a1a357cf-f0f8-4195-917c-b03f6dfa72ea")
+		(uuid "490d8cfd-8f5e-4516-8a23-bc7e79028599")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "8ad72eb9-55e3-4b50-9c42-fb2a49ec71f5")
+		(uuid "2e75d46f-9984-40c9-9cda-a0625914e0b8")
 		(effects
 			(font
 				(size 1 1)
@@ -105,7 +109,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "7c38ed46-efd2-4a78-b95f-5ae17bc10c9c")
+		(uuid "1cdc3309-1ce6-4281-82c0-60e98eb828f1")
 	)
 	(pad "2" smd roundrect
 		(at -0.45 -0.31)
@@ -113,7 +117,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "ed4d8d50-4997-479a-bf5d-a819f8d61159")
+		(uuid "af0e7370-1b11-4e69-9469-7cc10e7b6df5")
 	)
 	(pad "3" smd roundrect
 		(at -0.45 0.31)
@@ -121,7 +125,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "bc889cf7-129a-475f-beb3-94dc56f6611c")
+		(uuid "5405f2d7-6389-4da4-9958-48cef7f92689")
 	)
 	(pad "4" smd roundrect
 		(at -0.45 0.93)
@@ -129,7 +133,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "d0e48b0d-e9d2-4be0-ba93-c7844d0aa182")
+		(uuid "d5b20486-5aa2-4cd4-99de-e9c45f1c488f")
 	)
 	(pad "5" smd roundrect
 		(at 0.45 0.93)
@@ -137,7 +141,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "6e4a538d-6ee2-4ac1-b798-c9b913303ff1")
+		(uuid "f2a4f179-f35c-4f76-9099-43fddde2fff8")
 	)
 	(pad "6" smd roundrect
 		(at 0.45 0.31)
@@ -145,7 +149,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "d6bee70b-3fe8-45ed-9110-29b7eb78870f")
+		(uuid "0ab1ba48-7112-436b-93aa-8712c2155514")
 	)
 	(pad "7" smd roundrect
 		(at 0.45 -0.31)
@@ -153,7 +157,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "69f84c2c-3350-42d8-beed-04e57b7455ad")
+		(uuid "7f4c7a44-f539-46b3-bdcf-e01542574b12")
 	)
 	(pad "8" smd roundrect
 		(at 0.45 -0.93)
@@ -161,7 +165,18 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "39d01f58-b02b-403d-8043-80c8b1a18793")
+		(uuid "0b865662-a0e7-4a81-abff-37d017557e70")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/TCS3530.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

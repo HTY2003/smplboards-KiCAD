@@ -344,6 +344,17 @@
 			(uuid "487ba1b7-d52d-4bff-bead-3a3bf0970471")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/TCS3530.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
@@ -1828,6 +1839,17 @@
 			(uuid "550ea271-109a-48f3-abc1-23d50ab33964")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/MP-3014-1100-50-70.step"
+			(offset
+				(xyz 0.7 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
 		(layer "F.Cu")
@@ -2588,6 +2610,17 @@
 			(uuid "2752e6ea-98d9-4688-a7ec-937e623c7a3a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/MP-3014-1100-50-70.step"
+			(offset
+				(xyz 0.7 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Custom:LED_MP-3014-1100-50-80"
 		(layer "F.Cu")
@@ -2899,6 +2932,17 @@
 			(uuid "2188e992-591f-44ca-8bd3-1816d56e0c8d")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/MP-3014-1100-50-70.step"
+			(offset
+				(xyz 0.7 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -3365,6 +3409,17 @@
 			(uuid "ae11ca88-e76e-49bb-b677-342366789179")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/MP-3014-1100-50-70.step"
+			(offset
+				(xyz 0.7 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_DFN_QFN:Texas_R-PUQFN-N12"
 		(layer "F.Cu")
@@ -4790,6 +4845,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4996,6 +5052,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
